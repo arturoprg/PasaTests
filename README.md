@@ -2,7 +2,7 @@
 Es un programa en Python para que te pregunte tests que le has introducido.
 Las preguntas deben estar en uno o varios ficheros txt y deben tener entre 1 y 4 respuestas correctas, la estructua de las preguntas debe ser:
 
-Esta es la pregunta
+Esta es la pregunta \n
 A. Esta es la primera respuesta
 B. Esta es la segunda respuesta
 C. Esta es la tercera respuesta
