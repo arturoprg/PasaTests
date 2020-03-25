@@ -1,0 +1,24 @@
+Es este el mejor pasaTest?
+A. Verdadero.
+B. Falso.
+ANSWER: A
+
+Elija la afirmacion correcta:
+A. Este test es muy dificil.
+B. Este test es de ejemplo.
+C. Esta pregunta es objetiva.
+D. Todas las anteriores son incorrectas.
+ANSWER: B	
+
+Se pueden poner preguntas con solo 3 respuestas?
+A. No.
+B. Si.
+C. Veras que va a dar error.
+ANSWER: B
+
+Que afirmacion es mas correcta:
+A. La respuesta C es correcta:
+B. Esta respuesta es incorrecta.
+C. La respuesta B tiene sentido.
+D. No hay ninguna respuesta correcta.
+ANSWER: D   
