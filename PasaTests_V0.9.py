@@ -1,4 +1,3 @@
-
 ######################################################################################################################
 ###################################### by Arturo ####################################################################
 #####################################################################################################################
@@ -82,7 +81,8 @@ while (aceptar):
         if nombre[-4:len(nombre)] == '.txt':
             with open(nombre,"r") as archivo:
                 texto = archivo.readlines()   #guarda todas las lineas en un vector de lineas
-
+            ajustar(texto)
+            
         else:
             nombre1 = nombre+'/'
             all_files = os.listdir(nombre)
@@ -90,19 +90,19 @@ while (aceptar):
                 if guardar[-4:] == '.txt':
                     txt_files.append(guardar)
                     
-        for filename in txt_files:
-            try:
-                with open(f'{os.getcwd()}\\{nombre}\\{filename}', 'r') as prueba:
-                    aux = prueba.readlines()
-                    aux = ajustar(aux)
+            for filename in txt_files:
+                try:
+                    with open(f'{os.getcwd()}\\{nombre}\\{filename}', 'r') as prueba:
+                        aux = prueba.readlines()
+                        aux = ajustar(aux)
                 
-                    for i in range(len(aux)-1):
-                        texto.append(aux[i])
+                        for i in range(len(aux)-1):
+                            texto.append(aux[i])
                     
-                    if not texto[-1] == '\n':
-                        texto.append('\n')
-            except:
-                error.add(filename)
+                        if not texto[-1] == '\n':
+                            texto.append('\n')
+                except:
+                    error.add(filename)
 
         aceptar = False
 
@@ -116,8 +116,8 @@ if not len(error) == 0:
         print(f"    {i}")
     print(" ")
 
-#texto = ajustar(texto)
 preguntas = (len(texto)+1)//7   #calcula cuantas preguntas hay
+print(' ')
 
 while (salir):
     try:
