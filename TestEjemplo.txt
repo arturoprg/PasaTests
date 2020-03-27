@@ -16,11 +16,11 @@ ANSWER: b
 A. No.
 B. Si.
 C. Veras que va a dar error.
-ANSWER: B
+La respuesta correcta es B
 
 Que afirmacion es mas correcta:
 A) La respuesta C es correcta:
 B) Esta respuesta es incorrecta.
 C) La respuesta B tiene sentido.
 D) No hay ninguna respuesta correcta.
-ANSWER: d   
+d   
